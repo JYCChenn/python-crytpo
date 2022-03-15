@@ -1,0 +1,9 @@
+P="hello world"
+C=''
+
+for i in range(len(P)):
+    if P[i].isalpha():
+        C+=chr(ord(P[i])+3)
+    else :
+        C+=P[i]
+print(C)
